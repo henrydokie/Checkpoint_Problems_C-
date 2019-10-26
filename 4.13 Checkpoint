@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+
+int main() 
+{
+
+  int x;
+  double y;
+
+  cout << "Input a double value for y: " << endl;
+  cin >> y;
+
+  if(y == 100)
+    x = 1;
+  else 
+    x = 0;
+
+  cout << "x = " << x << endl;
+  cout << "y = " << y << endl;
+
+  return 0;
+}

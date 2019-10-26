@@ -1,0 +1,22 @@
+#include <iostream>
+#include <iomanip>
+using namespace std;
+
+int main() 
+
+{
+  double sales;
+
+  cout << "Input how much did you make in sales:\n";
+  cin >> sales;
+
+
+  if(sales >= 50000.00)
+    sales = sales + (sales * 0.20);
+  else
+    sales = sales + (sales * 0.10);
+
+  cout << "$" << sales << endl;
+
+  return 0;
+}
